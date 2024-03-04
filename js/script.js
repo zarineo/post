@@ -18,8 +18,7 @@ const renderPost = (posts) => {
     title.append(post.title);
     const body = document.createElement('div');
     const btn = document.createElement('a');
-    btn.classList.add('btn', 'btn-success');
-    btn.append('Перейти к посту')
+    btn.innerHTML = `<a href = 'post.html?id=${post.id}' class = 'btn btn-success'> Перейти к посту`;
     body.classList.add('card-body');
     const card = document.createElement('div');
     card.classList.add('card');

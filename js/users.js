@@ -43,22 +43,12 @@ const renderUser = (users) => {
     card.append(cardBody);
     col.append(card);
     usersContainer.append(col);
+
+    const btn = document.createElement('a');
+    btn.innerHTML = `<a href = 'user.html?id=${user.id}' class = 'btn btn-success'> Read more`;
+    cardBody.append(btn);
+
   })
 }
 
 console.log(data);
-
-
-// <div className="col">
-//   <div className="card">
-//     <div className="card-body">
-//       <h5 className="card-title">Name</h5>
-//        <p class= card-subtitle username
-//       <p className="card-text">
-//         Some quick example text to build on the card title and make up the bulk of the
-//         card's content.
-//       </p>
-//       <a href="#" className="btn btn-success">Go somewhere</a>
-//     </div>
-//   </div>
-// </div>

@@ -10,3 +10,40 @@
 .card-title {
     color: #198754;
 }
+.card-subtitle {
+    margin-bottom: 12px;
+}
+
+.card-text {
+    margin: 12px 0;
+}
+
+.adress {
+    border: #198754 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.post-body {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: darkgreen;
+}
+
+.post-container {
+    max-width: 700px;
+}
+
+.comment {
+    padding: 10px;
+    margin: 10px 0;
+    border: #198754 3px solid;
+}
+
+.post {
+    padding: 10px;
+    margin: 10px 0;
+    border: #198754 1px solid;
+    border-radius: 5px;
+}
+
