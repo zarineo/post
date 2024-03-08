@@ -47,7 +47,6 @@ const renderUser = (users) => {
     const btn = document.createElement('a');
     btn.innerHTML = `<a href = 'user.html?id=${user.id}' class = 'btn btn-success'> Read more`;
     cardBody.append(btn);
-
   })
 }
 

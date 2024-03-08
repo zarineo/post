@@ -9,5 +9,3 @@ const getSearchForm = (e) => {
 
 btn.addEventListener('click', getSearchForm);
 
-console.log(window.location.origin);
-console.log('Зарина');
